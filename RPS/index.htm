@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RPS</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link href="./style.css" rel="stylesheet">
+    </head>
+
+
+    <body>
+
+
+        <div class="container-fluid">
+                
+
+                
+
+              <div class="container row-one">
+                  <div class="row">
+                      <div class="col">
+                          <div class="live-scores">
+                            <div class="score-one">
+                                <h1 class="score-text-one">Your Score</h1>
+                                <h3 id="score-live-one">0</h3>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="score-two">
+                                <h1 class="score-text-two">Opponent</h1>
+                                <h3 id="score-live-two">0</h3>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+
+
+              <div class="container-fluid row-two">
+                  <div class="row">
+                      <div class="col col-one">
+                          <div class="row-two-text">
+                              <h3>Pick Your Card</h3>
+                          </div>
+                          <div class="btns">
+                              <button class="btn-rock"><img src="./img/icon-rock.svg" alt="rock-image"></button><br>
+                              <button class="btn-paper"><img src="./img/icon-paper.svg" alt="rock-paper"></button>
+                              <button class="btn-scissors"><img src="./img/icon-scissors.svg" alt="rock-scissors"></button>
+                          </div>
+                      </div>
+
+                      <div class="col col-mid-real">
+                          <div class="col-mid"></div>
+                      </div>
+                      
+                      <div class="col col-two">
+                          <div class="reset-btn">
+                              <button class="btn-reset btn">Reset</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+
+
+              <div class="container row-three">
+                  <div class="row">
+                      <div class="col">
+                          <div class="field-one">
+                              <h4 class="field-one-text">You Chose</h4>
+                              <div id="idk-one"></div>
+                          </div>
+                      </div>
+
+                      <div class="col">
+                          <div class="field-two">
+                              <h4 class="field-two-text">Opponent</h4>
+                              <div id="idk-two"></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+
+                
+                
+
+        </div>
+
+
+
+        <script src="./app.js"></script>
+    </body>
+</html>
